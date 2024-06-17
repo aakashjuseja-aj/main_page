@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash Kumar - Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .profile-header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            border: 2px solid #ccc;
+        }
+        .profile-header h1 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        .profile-header p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .section-header {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .publication, .project, .experience {
+            margin-bottom: 15px;
+        }
+        .publication .pub-content, .project .proj-content, .experience .exp-content {
+            display: flex;
+            align-items: center;
+        }
+        .publication img, .project img, .experience img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+            margin-right: 20px;
+        }
+        .contact-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        .list-item {
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .publication .pub-content, .project .proj-content, .experience .exp-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .publication img, .project img, .experience img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="img/aakash_kumar.jpg" alt="Aakash Kumar" width="150" height="150">
+            <h1>Aakash Kumar</h1>
+            <p>Graduate Research Assistant</p>
+            <p>Center for Research in Computer Vision, University of Central Florida</p>
+            <p>Email: aakash.kumar@ucf.edu | aakashjuseja@gmail.com</p>
+            <div class="contact-links">
+                <a href="">CV</a>
+                <a href="https://scholar.google.com/citations?user=tgeB3scAAAAJ&hl=en">Google Scholar</a>
+                <a href="https://www.linkedin.com/in/aakash-kumar-juseja/">LinkedIn</a>
+                <a href="https://github.com/aakashjuseja-aj/">GitHub</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">Profile Summary</div>
+            <p>Aspiring Computer Science PhD candidate with specialized expertise in 3D Multiple Object Tracking, Computer Vision, and Machine Learning. Aiming to propel the applied science and robotics industry forward with a strong portfolio of research in advanced sensory data interpretation and algorithm development.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-header">Recent Publications</div>
+            <div class="publication">
+                <div class="pub-content">
+                    <img src="img/StoD.png" alt="Sparse Points to Dense Clouds" class="img-responsive small-img"style="width: 200px; height: auto;">
+                    <div>
+                        <p><strong>Sparse Points to Dense Clouds: Enhancing 3D Detection with Limited LiDAR Data</strong><br>
+                        Submitted<br>
+                        Aakash Kumar, Chen Chen, Ajmal Mian, Neils Lobo, Mubarak Shah<br>
+                        [<a href="https://aakashjuseja-aj.github.io/Sparse_to_Dense/" target="_blank" rel="noopener noreferrer">Project</a>] 
+                        [<a href="https://arxiv.org/pdf/2404.06715" target="_blank" rel="noopener noreferrer">Paper</a>]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="publication">
+                <div class="pub-content">
+                    <img src="img/SS3D-MOT.png" alt="Self Supervised Learning for Multiple Object Tracking in 3D Point Clouds" class="img-responsive small-img" style="width: 200px; height: auto;">
+                    <div>
+                        <p><strong>Self Supervised Learning for Multiple Object Tracking in 3D Point Clouds</strong><br>
+                        IROS 2022<br>
+                        Aakash Kumar, Jyoti Kini, Ajmal Mian, Mubarak Shah<br>
+                        [<a href="https://aakashjuseja-aj.github.io/SS3D-MOT/" target="_blank" rel="noopener noreferrer">Project</a>] 
+                        [<a href="https://ieeexplore.ieee.org/document/9981793" target="_blank" rel="noopener noreferrer">Paper</a>]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="publication">
+                <div class="pub-content">
+                    <img src="img/PCDAN.png" alt="PC-DAN: Point Cloud based Deep Affinity Network for 3D Multi-Object Tracking" class="img-responsive small-img" style="width: 200px; height: auto;">
+                    <div>
+                        <p><strong>PC-DAN: Point Cloud based Deep Affinity Network for 3D Multi-Object Tracking</strong><br>
+                        CVPR-W 2021<br>
+                        Aakash Kumar, Jyoti Kini, Ajmal Mian, Mubarak Shah<br>
+                        [<a href="https://aakashjuseja-aj.github.io/PCDAN/" target="_blank" rel="noopener noreferrer">Project</a>] 
+                        [<a href="https://arxiv.org/abs/2106.07552" target="_blank" rel="noopener noreferrer">Paper</a>]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section">
+            <div class="section-header">Education</div>
+            <ul>
+                <li class="list-item"><strong>University of Central Florida, USA</strong> (Aug. 2021 – Present)
+                    <br>PhD in Computer Science
+                    <br>Advisor: Dr. Mubarak Shah
+                </li>
+                <li class="list-item"><strong>Shanghai Jiao Tong University, China</strong> (Sep. 2018 – July 2020)
+                    <br>Masters in Electronics and Communication
+                    <br>GPA: 3.57/4.0
+                </li>
+                <li class="list-item"><strong>Sukkur IBA University, Pakistan</strong> (Dec. 2010 – May 2015)
+                    <br>Bachelor’s in Electrical Engineering
+                    <br>GPA: 3.23/4.0
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-header">Experience</div>
+            <ul>
+                <li class="list-item"><strong>Graduate Research Assistant</strong> (July 2023 – Present)
+                    <br>University of Central Florida, USA
+                    <br>Project: “HAYSTAC: Hidden Activity Signal and Trajectory Anomaly Characterization” Funded by Intelligence Advanced Research Project Activity (IARPA)
+                </li>
+                <li class="list-item"><strong>Graduate Teaching Assistant</strong> (Aug. 2022 – July 2023)
+                    <br>University of Central Florida, USA
+                    <br>CDA 3103: Computer Logic and Organization
+                </li>
+                <li class="list-item"><strong>Graduate Research Assistant</strong> (Jan. 2021 – Aug. 2022)
+                    <br>University of Central Florida, USA
+                    <br>Project: “Cognitive Sense Making” Funded by Lockheed Martin
+                </li>
+            </ul>
+        </div>
+
+         <div class="section">
+            <div class="section-header">Projects</div>
+            <div class="project">
+                <div class="proj-content">
+                    <div>
+                        <p><strong>HAYSTAC - Hidden Activity Signal and Trajectory Anomaly Characterization:</strong> Developed ML based models to characterize and detect anomalous human movements in trajectory data ensuring privacy within IoT and Smart City infrastructures. (Funded by IARPA)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="proj-content">
+                    <div>
+                        <p><strong>Sparse Points to Dense Clouds:</strong> Pioneered a 3D detection method leveraging sparse LiDAR data to reconstruct dense point clouds significantly improving detection accuracy on the KITTI and JackRabbot datasets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="proj-content">
+                    <div>
+                        <p><strong>Self-Supervised 3D Multiple Object Tracking:</strong> Developed the first self-supervised method for 3D object tracking using LiDAR enhancing feature learning and object association without the need for annotated training data. (Funded by Lockheed Martin)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="proj-content">
+                    <div>
+                        <p><strong>PC-DAN for 3D Multiple Object Tracking:</strong> Introduced a novel deep learning model for 3D Multi-Object Tracking that processes sparse LiDAR data with a unique feature permutation approach achieving top leaderboard performance at a Stanford University CVPR workshop. (Funded by Lockheed Martin)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="proj-content">
+                    <div>
+                        <p><strong>Satellite Image Segmentation:</strong> Improved remote sensing image segmentation by modifying U-Net and PSPNet models effectively classifying roads, buildings, grass, and water with enhanced accuracy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="proj-content">
+                    <div>
+                        <p><strong>Real-Time Visual Saliency Detection:</strong> Proposed a CNN based model for saliency detection in SAR images reducing computational complexity and enabling real-time remote sensing applications. (Funded by Shanghai Jiaotong University, China)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">Technical Skills</div>
+            <ul>
+                <li class="list-item"><strong>Programming Languages:</strong> Python, MATLAB, C++, JAVA</li>
+                <li class="list-item"><strong>Frameworks & Libraries:</strong> PyTorch, TensorFlow, OpenCV, Open3D</li>
+                <li class="list-item"><strong>Tools & Platforms:</strong> Linux, Git, Docker, CARLA</li>
+                <li class="list-item"><strong>Systems Knowledge:</strong> Robot Operating System, Sensor Fusion Tech., ML Models</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-header">Achievements</div>
+            <ul>
+                <li class="list-item">Granted Graduate Presentation Fellowship by UCF College of Graduate Studies (2022)</li>
+                <li class="list-item">Won Stanford’s JackRabbot Challenge 3D Tracking Competition (CVPR 2021)</li>
+                <li class="list-item">Awarded with ORC-Fellowship from University of Central Florida for First Year of PhD (2021)</li>
+                <li class="list-item">Awarded with fully funded 2 years Chinese Govt. Scholarship by CSC China (2018)</li>
+                <li class="list-item">Awarded with fully funded 4 years National ICT Scholarship (2011)</li>
+                <li class="list-item">Awarded Recognition of Institution Merit Scholarship Certificate for securing 3.81 GPA in 7th semester of bachelor’s degree (2014)</li>
+                <li class="list-item">Secured 3rd position in Pakistan in IEEEXtreme-2014 programming competition and first in Sukkur IBA University Pakistan. (2014)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
